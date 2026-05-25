@@ -1,0 +1,1097 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Amma Road Carriers provides fast, safe, and reliable transport and logistics services. Full Truck Load (FTL), Part Load, Warehousing, and Live Shipment Tracking.">
+    <title>Amma Road Carriers | Fast, Safe & Reliable Transport Services</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Top Contact Bar -->
+    <div class="top-bar">
+        <div class="container top-bar-container">
+            <div class="top-info">
+                <span><i class="fa-solid fa-phone"></i> +91 9391998859</span>
+                <span><i class="fa-solid fa-envelope"></i> ammaroadcarriers@gmail.com</span>
+                <span class="hide-mobile"><i class="fa-solid fa-clock"></i> Mon - Sat: 10:00 AM - 11:00 PM</span>
+            </div>
+            <div class="top-socials">
+                <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sticky Navigation Header -->
+    <header class="main-header">
+        <div class="container header-container">
+            <a href="#home" class="logo">
+                <span class="logo-icon"><i class="fa-solid fa-truck-fast"></i></span>
+                <span class="logo-text">AMMA <span class="accent-text">ROAD CARRIERS</span></span>
+            </a>
+
+            <!-- Desktop Menu -->
+            <nav class="nav-menu" id="navMenu">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About Us</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#calculator" class="nav-link">Rate Estimator</a></li>
+                    <li><a href="#tracking" class="nav-link">Track Shipment</a></li>
+                    <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                    <li><a href="#faq" class="nav-link">FAQ</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <button class="btn btn-quote hide-tablet" id="openQuoteBtn">Get a Quote</button>
+                <button class="menu-toggle" id="mobileMenuBtn" aria-label="Toggle menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Side Drawer Navigation -->
+    <div class="mobile-drawer" id="mobileDrawer">
+        <div class="drawer-header">
+            <a href="#home" class="logo">
+                <span class="logo-icon"><i class="fa-solid fa-truck-fast"></i></span>
+                <span class="logo-text">AMMA <span class="accent-text">ROAD CARRIERS</span></span>
+            </a>
+            <button class="close-drawer" id="closeDrawerBtn" aria-label="Close menu">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+        </div>
+        <ul class="drawer-list">
+            <li><a href="#home" class="drawer-link">Home</a></li>
+            <li><a href="#about" class="drawer-link">About Us</a></li>
+            <li><a href="#services" class="drawer-link">Services</a></li>
+            <li><a href="#calculator" class="drawer-link">Rate Estimator</a></li>
+            <li><a href="#tracking" class="drawer-link">Track Shipment</a></li>
+            <li><a href="#gallery" class="drawer-link">Gallery</a></li>
+            <li><a href="#faq" class="drawer-link">FAQ</a></li>
+            <li><a href="#contact" class="drawer-link">Contact</a></li>
+        </ul>
+        <div class="drawer-footer">
+            <button class="btn btn-primary btn-block" id="drawerQuoteBtn">Get a Quote</button>
+            <div class="drawer-contact">
+                <p><i class="fa-solid fa-phone"></i> +91 98765 43210</p>
+                <p><i class="fa-solid fa-envelope"></i> info@ammaroadcarriers.com</p>
+            </div>
+        </div>
+    </div>
+    <div class="overlay" id="menuOverlay"></div>
+
+    <main>
+        <!-- 1. Home / Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="hero-bg-slider">
+                <!-- Using beautiful high resolution logistics photo -->
+                <div class="slide-bg active"
+                    style="background-image: linear-gradient(rgba(11, 22, 44, 0.85), rgba(11, 22, 44, 0.7)), url('https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1920&q=80');">
+                </div>
+            </div>
+            <div class="container hero-container">
+                <div class="hero-content reveal">
+                    <span class="hero-badge"><i class="fa-solid fa-shield-halved"></i> ISO 9001:2015 Certified Logistics
+                        Partner</span>
+                    <h1 class="hero-title">Amma Road Carriers</h1>
+
+                    <!-- Animated Text Slider -->
+                    <div class="hero-subtitle-container">
+                        <span class="hero-subtitle-static">We Offer</span>
+                        <div class="text-slider" id="textSlider">
+                            <span class="slide-text active">Fast, Safe & Reliable Transport Services</span>
+                            <span class="slide-text">End-to-End Supply Chain Management</span>
+                            <span class="slide-text">24/7 Live GPS Tracked Fleet Solutions</span>
+                            <span class="slide-text">On-Time Nationwide Goods Delivery</span>
+                        </div>
+                    </div>
+
+                    <p class="hero-description">Streamlining your logistics and transport workflows with maximum
+                        reliability and absolute security. Seamless delivery operations across India.</p>
+                    <div class="hero-actions-group">
+                        <button class="btn btn-primary" id="heroQuoteBtn"><i class="fa-solid fa-paper-plane"></i> Get
+                            Free Quote</button>
+                        <a href="#contact" class="btn btn-outline"><i class="fa-solid fa-envelope"></i> Contact Us</a>
+                    </div>
+                </div>
+
+                <!-- Quick Floating Stat Widget -->
+                <div class="hero-quick-stats hide-mobile reveal reveal-delay-1">
+                    <div class="quick-stat-item">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <div>
+                            <h4>99.9%</h4>
+                            <p>On-Time Deliveries</p>
+                        </div>
+                    </div>
+                    <div class="quick-stat-item">
+                        <i class="fa-solid fa-location-crosshairs"></i>
+                        <div>
+                            <h4>100%</h4>
+                            <p>GPS Tracked Fleet</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="scroll-down-indicator">
+                <a href="#about" aria-label="Scroll down"><i class="fa-solid fa-chevron-down"></i></a>
+            </div>
+        </section>
+
+        <!-- 2. About Us Section -->
+        <section id="about" class="about-section section-padding">
+            <div class="container">
+                <div class="section-header text-center reveal">
+                    <span class="section-tagline">WHO WE ARE</span>
+                    <h2 class="section-title">Reliable Logistics Partner with 25+ Years Experience</h2>
+                    <div class="header-line"></div>
+                </div>
+
+                <div class="about-grid">
+                    <!-- Left: Images Panel with Experience Badge -->
+                    <div class="about-images reveal">
+                        <div class="main-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=800&q=80"
+                                alt="Amma Road Carriers Fleet Vehicle" class="about-img-main">
+                        </div>
+                        <div class="sub-img-wrapper hide-mobile">
+                            <img src="images/office.png" alt="Amma Road Carriers Transport Office"
+                                class="about-img-sub">
+                        </div>
+                        <div class="experience-badge">
+                            <span class="badge-num" data-target="25">0</span>
+                            <span class="badge-plus">+</span>
+                            <span class="badge-text">Years of Excellence</span>
+                        </div>
+                    </div>
+
+                    <!-- Right: Info Panel & Mission/Vision Tabs -->
+                    <div class="about-info reveal reveal-delay-1">
+                        <h3>Moving Boundaries, Delivering Value</h3>
+                        <p class="about-desc">Established in 2007, <strong>Amma Road Carriers</strong> has grown to
+                            become one of India’s most trusted logistics and surface transportation networks. We
+                            specialize in secure, time-critical transportation across states using modern vehicles and
+                            warehouse protocols.</p>
+
+                        <!-- Mission / Vision Tabs -->
+                        <div class="tabs-container">
+                            <div class="tab-headers">
+                                <button class="tab-btn active" data-tab="mission">Our Mission</button>
+                                <button class="tab-btn" data-tab="vision">Our Vision</button>
+                                <button class="tab-btn" data-tab="values">Core Values</button>
+                            </div>
+                            <div class="tab-content-panel">
+                                <div class="tab-content active" id="tab-mission">
+                                    <p>To deliver excellence in logistics and transport through innovative solutions,
+                                        on-time delivery guarantees, and absolute cargo security, helping our partners
+                                        grow and succeed in their ventures.</p>
+                                </div>
+                                <div class="tab-content" id="tab-vision">
+                                    <p>To become India’s premier surface transportation and logistics framework by
+                                        utilizing advanced tracking, environmentally sustainable fleets, and unrivaled
+                                        customer service grids.</p>
+                                </div>
+                                <div class="tab-content" id="tab-values">
+                                    <ul class="values-list">
+                                        <li><i class="fa-solid fa-circle-check text-accent"></i> <strong>Integrity &
+                                                Honesty</strong> in all freight metrics</li>
+                                        <li><i class="fa-solid fa-circle-check text-accent"></i> <strong>Absolute
+                                                Safety</strong> for both drivers and cargo</li>
+                                        <li><i class="fa-solid fa-circle-check text-accent"></i>
+                                            <strong>Innovation</strong> in tracking and route structures
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Animated Counters Grid -->
+                <div class="counters-grid section-margin reveal">
+                    <div class="counter-card">
+                        <div class="counter-icon"><i class="fa-solid fa-truck"></i></div>
+                        <h4 class="counter-number"><span data-target="500">0</span>+</h4>
+                        <p class="counter-title">Active Fleet Vehicles</p>
+                    </div>
+                    <div class="counter-card">
+                        <div class="counter-icon"><i class="fa-solid fa-route"></i></div>
+                        <h4 class="counter-number"><span data-target="15">0</span>M+</h4>
+                        <p class="counter-title">Miles Driven Annually</p>
+                    </div>
+                    <div class="counter-card">
+                        <div class="counter-icon"><i class="fa-solid fa-users"></i></div>
+                        <h4 class="counter-number"><span data-target="1000">0</span>+</h4>
+                        <p class="counter-title">Satisfied Corporate Clients</p>
+                    </div>
+                    <div class="counter-card">
+                        <div class="counter-icon"><i class="fa-solid fa-house-chimney-user"></i></div>
+                        <h4 class="counter-number"><span data-target="99">0</span>.9%</h4>
+                        <p class="counter-title">On-Time Success Rate</p>
+                    </div>
+                </div>
+
+                <!-- Why Choose Us Grid -->
+                <h3 class="subsection-title text-center section-margin reveal">Why Choose Amma Road Carriers</h3>
+                <div class="why-choose-grid reveal reveal-delay-1">
+                    <div class="choose-card">
+                        <div class="choose-icon-wrapper"><i class="fa-solid fa-truck-ramp-box"></i></div>
+                        <h4>On-Time Delivery</h4>
+                        <p>Our optimized routes, dedicated driver pools, and buffer timelines ensure deliveries reach
+                            their endpoints exactly when planned.</p>
+                    </div>
+                    <div class="choose-card">
+                        <div class="choose-icon-wrapper"><i class="fa-solid fa-satellite-dish"></i></div>
+                        <h4>24/7 Live GPS Tracking</h4>
+                        <p>Get complete visual tracking of your consignment from start to finish via advanced
+                            high-precision GPS telematics.</p>
+                    </div>
+                    <div class="choose-card">
+                        <div class="choose-icon-wrapper"><i class="fa-solid fa-wallet"></i></div>
+                        <h4>Affordable Pricing</h4>
+                        <p>Competitive prices tailored to FTL, part load, or local deliveries with no hidden
+                            administrative fees or surprise charges.</p>
+                    </div>
+                    <div class="choose-card">
+                        <div class="choose-icon-wrapper"><i class="fa-solid fa-id-card"></i></div>
+                        <h4>Experienced Drivers</h4>
+                        <p>A rigorous background and skill qualification system filters out the best certified,
+                            safety-focused operators in the country.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. Services Section -->
+        <section id="services" class="services-section section-padding bg-light">
+            <div class="container">
+                <div class="section-header text-center reveal">
+                    <span class="section-tagline">OUR SERVICES</span>
+                    <h2 class="section-title">Custom Logistics Solutions Built For Your Business</h2>
+                    <div class="header-line"></div>
+                </div>
+
+                <div class="services-grid reveal reveal-delay-1">
+                    <!-- Service 1: FTL -->
+                    <div class="service-card" data-service="ftl">
+                        <div class="service-icon"><i class="fa-solid fa-truck-moving"></i></div>
+                        <h3>Full Truck Load (FTL)</h3>
+                        <p>Exclusive containerized transport tailored for massive volume business operations. Fast,
+                            point-to-point interstate delivery grid.</p>
+                        <button class="btn-text open-service-modal" data-target="ftl">Read More <i
+                                class="fa-solid fa-arrow-right-long"></i></button>
+                    </div>
+
+                    <!-- Service 2: Part Load -->
+                    <div class="service-card" data-service="part-load">
+                        <div class="service-icon"><i class="fa-solid fa-boxes-packing"></i></div>
+                        <h3>Part Load Transport</h3>
+                        <p>Cost-effective consolidated solution for mid-sized cargo requirements. Share space, pay only
+                            for the volume your freight consumes.</p>
+                        <button class="btn-text open-service-modal" data-target="part-load">Read More <i
+                                class="fa-solid fa-arrow-right-long"></i></button>
+                    </div>
+
+                    <!-- Service 3: Warehousing -->
+                    <div class="service-card" data-service="warehousing">
+                        <div class="service-icon"><i class="fa-solid fa-warehouse"></i></div>
+                        <h3>Modern Warehousing</h3>
+                        <p>Secure, CCTV-monitored, temperature-controlled warehouse points across standard hubs in India
+                            to store cargo seamlessly.</p>
+                        <button class="btn-text open-service-modal" data-target="warehousing">Read More <i
+                                class="fa-solid fa-arrow-right-long"></i></button>
+                    </div>
+
+                    <!-- Service 4: Express Delivery -->
+                    <div class="service-card" data-service="express">
+                        <div class="service-icon"><i class="fa-solid fa-bolt"></i></div>
+                        <h3>Express Logistics</h3>
+                        <p>Time-critical rapid transit solutions utilizing double-driver squads to slash transport times
+                            in half for urgent packages.</p>
+                        <button class="btn-text open-service-modal" data-target="express">Read More <i
+                                class="fa-solid fa-arrow-right-long"></i></button>
+                    </div>
+
+                    <!-- Service 5: Industrial Goods -->
+                    <div class="service-card" data-service="industrial">
+                        <div class="service-icon"><i class="fa-solid fa-gears"></i></div>
+                        <h3>Industrial Heavy Goods</h3>
+                        <p>Dedicated flatbeds, hydraulic axle systems, and low-beds designed to move colossal machinery
+                            and construction structures safely.</p>
+                        <button class="btn-text open-service-modal" data-target="industrial">Read More <i
+                                class="fa-solid fa-arrow-right-long"></i></button>
+                    </div>
+
+                    <!-- Service 6: Interstate Logistics -->
+                    <div class="service-card" data-service="interstate">
+                        <div class="service-icon"><i class="fa-solid fa-map-location-dot"></i></div>
+                        <h3>Interstate Transport</h3>
+                        <p>Efficient state RTO permits, fast toll handlings, and smooth state-border documentation
+                            workflows to prevent any transit lag.</p>
+                        <button class="btn-text open-service-modal" data-target="interstate">Read More <i
+                                class="fa-solid fa-arrow-right-long"></i></button>
+                    </div>
+
+                    <!-- Service 7: Parcel Services -->
+                    <div class="service-card" data-service="parcel">
+                        <div class="service-icon"><i class="fa-solid fa-box"></i></div>
+                        <h3>Parcel & LTL Services</h3>
+                        <p>Small packages and light box delivery network catering to e-commerce startups and small scale
+                            manufacturing shops.</p>
+                        <button class="btn-text open-service-modal" data-target="parcel">Read More <i
+                                class="fa-solid fa-arrow-right-long"></i></button>
+                    </div>
+
+                    <!-- Service 8: 24/7 Support -->
+                    <div class="service-card" data-service="support">
+                        <div class="service-icon"><i class="fa-solid fa-headset"></i></div>
+                        <h3>24/7 Customer Care</h3>
+                        <p>Dedicated tracking operators and service desks standing by at all times to clarify routing
+                            doubts, document updates, and ETA.</p>
+                        <button class="btn-text open-service-modal" data-target="support">Read More <i
+                                class="fa-solid fa-arrow-right-long"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. Freight Cost Calculator Section -->
+        <section id="calculator" class="calculator-section section-padding bg-light">
+            <div class="container">
+                <div class="section-header text-center reveal">
+                    <span class="section-tagline">RATE ESTIMATOR</span>
+                    <h2 class="section-title">Instant Domestic Freight Cost Estimator</h2>
+                    <div class="header-line"></div>
+                </div>
+
+                <div class="calculator-grid reveal reveal-delay-1">
+                    <!-- Left: Inputs Form -->
+                    <div class="calc-form-card">
+                        <h3>Select Route & Load Parameters</h3>
+                        <form id="freightCalcForm" onsubmit="event.preventDefault();">
+                            <div class="form-grid-two">
+                                <div class="input-element">
+                                    <label for="calcOrigin">Origin State *</label>
+                                    <select id="calcOrigin" required>
+                                        <option value="">Select Origin State</option>
+                                    </select>
+                                </div>
+                                <div class="input-element">
+                                    <label for="calcDest">Destination State *</label>
+                                    <select id="calcDest" required>
+                                        <option value="">Select Destination State</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-grid-two">
+                                <div class="input-element">
+                                    <label for="calcOriginLoc">Origin City / District *</label>
+                                    <select id="calcOriginLoc" required disabled>
+                                        <option value="">Select State First</option>
+                                    </select>
+                                </div>
+                                <div class="input-element">
+                                    <label for="calcDestLoc">Destination City / District *</label>
+                                    <select id="calcDestLoc" required disabled>
+                                        <option value="">Select State First</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-grid-two">
+                                <div class="input-element">
+                                    <label for="calcWeight">Cargo Weight (Tons) *</label>
+                                    <input type="number" id="calcWeight" min="1" max="100" value="5"
+                                        placeholder="e.g. 5" required>
+                                </div>
+                                <div class="input-element">
+                                    <label for="calcService">Select Service Category *</label>
+                                    <select id="calcService" required>
+                                        <option value="ftl">Full Truck Load (FTL)</option>
+                                        <option value="part-load">Part Load Transport</option>
+                                        <option value="express">Express Delivery</option>
+                                        <option value="heavy">Industrial Goods / Open Body</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-block" id="calcEstimateBtn">
+                                <i class="fa-solid fa-calculator"></i> Calculate Freight Estimate
+                            </button>
+                        </form>
+                    </div>
+
+                    <!-- Right: Results Card -->
+                    <div class="calc-result-card" id="calcResultCard">
+                        <div class="calc-empty-state">
+                            <i class="fa-solid fa-route"></i>
+                            <h4>Interactive Cost Estimator</h4>
+                            <p>Fill in your shipping route and load specifications on the left, then click "Calculate
+                                Freight Estimate" to view complete billing matrices, transit durations, and active RTO
+                                clearances.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. Tracking Section -->
+        <section id="tracking" class="tracking-section section-padding bg-dark text-white">
+            <div class="container">
+                <div class="tracking-wrapper">
+                    <div class="tracking-info-column reveal">
+                        <span class="section-tagline tag-accent">REAL-TIME GPS DEMO</span>
+                        <h2>Instant Surface Shipment Tracking Portal</h2>
+                        <p>Locate your freight instantaneously using our simulation hub. Paste standard testing codes or
+                            type your docket number below to verify milestones, driver assignments, and precise arrival
+                            metrics.</p>
+
+                        <div class="docket-tips">
+                            <p><strong>Demo tracking numbers to try:</strong></p>
+                            <ul>
+                                <li><code>AMMA-786</code> (Shipment in transit status)</li>
+                                <li><code>AMMA-FAST</code> (Urgent Express in delivery stage)</li>
+                                <li><code>AMMA-2026</code> (Fully Delivered cargo docket)</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Interactive Tracking Component -->
+                    <div class="tracking-widget-column reveal reveal-delay-1">
+                        <div class="tracking-form-card">
+                            <h3>Enter Docket / Air Waybill (AWB)</h3>
+                            <form id="trackingForm" onsubmit="event.preventDefault();">
+                                <div class="input-group-search">
+                                    <input type="text" id="trackingIdInput" placeholder="e.g. AMMA-786" required>
+                                    <button type="submit" class="btn btn-primary" id="trackButton">
+                                        <i class="fa-solid fa-location-crosshairs"></i> Track Now
+                                    </button>
+                                </div>
+                            </form>
+
+                            <!-- Dynamic Result Area -->
+                            <div class="tracking-result-placeholder" id="trackingResultPlaceholder">
+                                <div class="widget-empty-state">
+                                    <i class="fa-solid fa-box-open"></i>
+                                    <p>Enter your Docket ID above and hit "Track Now" to showcase milestone progression
+                                        dynamically.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- 7. Testimonials Section -->
+        <section class="testimonials-section section-padding bg-light">
+            <div class="container">
+                <div class="section-header text-center reveal">
+                    <span class="section-tagline">WHAT CLIENTS SAY</span>
+                    <h2 class="section-title">Trusted by Leading Industries Across the Country</h2>
+                    <div class="header-line"></div>
+                </div>
+
+                <!-- Custom Testimonial Carousel -->
+                <div class="testimonial-carousel-wrapper reveal reveal-delay-1">
+                    <button class="carousel-control prev-control" id="prevSlideBtn" aria-label="Previous review">
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </button>
+
+                    <div class="carousel-viewport" id="carouselViewport">
+                        <div class="carousel-track" id="carouselTrack">
+
+                            <!-- Slide 1 -->
+                            <div class="testimonial-slide">
+                                <div class="testimonial-content-card">
+                                    <div class="quote-icon"><i class="fa-solid fa-quote-right"></i></div>
+                                    <p class="feedback-text">"Amma Road Carriers managed our complete factory relocation
+                                        from Pune to Bangalore. 45 tons of precise automotive tooling were dispatched
+                                        and arrived without a single scratch! Outstanding support."</p>
+                                    <div class="customer-info-row">
+                                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&h=150&q=80"
+                                            alt="Rajesh Sharma" class="customer-avatar">
+                                        <div>
+                                            <h4>Rajesh Sharma</h4>
+                                            <p class="customer-role">Logistics Director, AutoParts Corp</p>
+                                            <div class="rating-stars">
+                                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                                    class="fa-solid fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Slide 2 -->
+                            <div class="testimonial-slide">
+                                <div class="testimonial-content-card">
+                                    <div class="quote-icon"><i class="fa-solid fa-quote-right"></i></div>
+                                    <p class="feedback-text">"Their live tracking demo was not just a placeholder—we
+                                        regularly use their tracking system to map pharmaceutical shipments. The closed
+                                        containers avoid humidity leaks perfectly."</p>
+                                    <div class="customer-info-row">
+                                        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&h=150&q=80"
+                                            alt="Priya Nair" class="customer-avatar">
+                                        <div>
+                                            <h4>Dr. Priya Nair</h4>
+                                            <p class="customer-role">Supply Chain Head, Apex Pharma</p>
+                                            <div class="rating-stars">
+                                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                                    class="fa-solid fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Slide 3 -->
+                            <div class="testimonial-slide">
+                                <div class="testimonial-content-card">
+                                    <div class="quote-icon"><i class="fa-solid fa-quote-right"></i></div>
+                                    <p class="feedback-text">"Outstanding parcel and LTL service framework for small
+                                        shops. Their statewide pricing allows us to dispatch inventory multiple times a
+                                        week without burning high budgets."</p>
+                                    <div class="customer-info-row">
+                                        <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=150&h=150&q=80"
+                                            alt="Amit Patel" class="customer-avatar">
+                                        <div>
+                                            <h4>Amit Patel</h4>
+                                            <p class="customer-role">Co-Founder, CraftBazaar Online</p>
+                                            <div class="rating-stars">
+                                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                                    class="fa-solid fa-star-half-stroke"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Slide 4 -->
+                            <div class="testimonial-slide">
+                                <div class="testimonial-content-card">
+                                    <div class="quote-icon"><i class="fa-solid fa-quote-right"></i></div>
+                                    <p class="feedback-text">"Customer support at Amma Road Carriers is phenomenal. In
+                                        critical monsoons, they guided our vehicle through secure detours, providing
+                                        constant WhatsApp tracking and phone support."</p>
+                                    <div class="customer-info-row">
+                                        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=150&h=150&q=80"
+                                            alt="Neha Sen" class="customer-avatar">
+                                        <div>
+                                            <h4>Neha Sen</h4>
+                                            <p class="customer-role">Operations Manager, Sunrise Agro</p>
+                                            <div class="rating-stars">
+                                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                                    class="fa-solid fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <button class="carousel-control next-control" id="nextSlideBtn" aria-label="Next review">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </button>
+                </div>
+
+                <!-- Carousel Dots Pagination -->
+                <div class="carousel-dots-indicator" id="carouselDots">
+                    <!-- JS will populate dot triggers -->
+                </div>
+            </div>
+        </section>
+
+        <!-- 8. Gallery Section -->
+        <section id="gallery" class="gallery-section section-padding">
+            <div class="container">
+                <div class="section-header text-center reveal">
+                    <span class="section-tagline">PHOTO GALLERY</span>
+                    <h2 class="section-title">A Visual Glimpse of Our Precision Operations</h2>
+                    <div class="header-line"></div>
+                </div>
+
+                <!-- Gallery Categories Filter -->
+                <div class="gallery-filters reveal">
+                    <button class="filter-btn active" data-filter="all">All Photos</button>
+                    <button class="filter-btn" data-filter="fleet">Fleet Vehicles</button>
+                    <button class="filter-btn" data-filter="warehouse">Warehousing</button>
+                    <button class="filter-btn" data-filter="operations">Operations & Drivers</button>
+                </div>
+
+                <!-- Image Grid -->
+                <div class="gallery-grid reveal reveal-delay-1">
+                    <!-- Photo 1: download.jpeg -->
+                    <div class="gallery-item" data-category="fleet">
+                        <img src="download.jpeg" alt="Express Container Fleet" class="gallery-img">
+                        <div class="gallery-overlay">
+                            <span class="zoom-icon"><i class="fa-solid fa-maximize"></i></span>
+                            <span class="gallery-info">
+                                <h4>Express Container Fleet</h4>
+                                <p>Heavy Surface Transport</p>
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- Photo 2: download (1).jpeg -->
+                    <div class="gallery-item" data-category="fleet">
+                        <img src="download%20(1).jpeg" alt="Multi-Axle Heavy Hauler" class="gallery-img">
+                        <div class="gallery-overlay">
+                            <span class="zoom-icon"><i class="fa-solid fa-maximize"></i></span>
+                            <span class="gallery-info">
+                                <h4>Multi-Axle Heavy Hauler</h4>
+                                <p>Bulk Cargo Logistics</p>
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- Photo 3: download (2).jpeg -->
+                    <div class="gallery-item" data-category="warehouse">
+                        <img src="download%20(2).jpeg" alt="Advanced Warehouse Facility" class="gallery-img">
+                        <div class="gallery-overlay">
+                            <span class="zoom-icon"><i class="fa-solid fa-maximize"></i></span>
+                            <span class="gallery-info">
+                                <h4>Advanced Warehouse Facility</h4>
+                                <p>Inventory Stock Stacking</p>
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- Photo 4: download (6).jpeg -->
+                    <div class="gallery-item" data-category="warehouse">
+                        <img src="download%20(6).jpeg" alt="Fulfillment Hub Operations" class="gallery-img">
+                        <div class="gallery-overlay">
+                            <span class="zoom-icon"><i class="fa-solid fa-maximize"></i></span>
+                            <span class="gallery-info">
+                                <h4>Fulfillment Hub Operations</h4>
+                                <p>Corporate Distribution</p>
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- Photo 5: images.jpeg -->
+                    <div class="gallery-item" data-category="operations">
+                        <img src="images.jpeg" alt="Ground Operations Terminal" class="gallery-img">
+                        <div class="gallery-overlay">
+                            <span class="zoom-icon"><i class="fa-solid fa-maximize"></i></span>
+                            <span class="gallery-info">
+                                <h4>Ground Operations Terminal</h4>
+                                <p>Systemized Route Management</p>
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- Photo 6: images (1).jpeg -->
+                    <div class="gallery-item" data-category="operations">
+                        <img src="images%20(1).jpeg" alt="Direct Fleet Dispatch" class="gallery-img">
+                        <div class="gallery-overlay">
+                            <span class="zoom-icon"><i class="fa-solid fa-maximize"></i></span>
+                            <span class="gallery-info">
+                                <h4>Direct Fleet Dispatch</h4>
+                                <p>Real-time Route Security</p>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 9. FAQ Section -->
+        <section id="faq" class="faq-section section-padding bg-light">
+            <div class="container">
+                <div class="section-header text-center reveal">
+                    <span class="section-tagline">COMMON INQUIRIES</span>
+                    <h2 class="section-title">Frequently Asked Questions</h2>
+                    <div class="header-line"></div>
+                </div>
+
+                <div class="faq-accordion-container reveal reveal-delay-1">
+                    <!-- FAQ 1 -->
+                    <div class="accordion-item">
+                        <button class="accordion-header" aria-expanded="false">
+                            <span>What is the difference between your Full Truck Load (FTL) and Part Load
+                                services?</span>
+                            <span class="icon-toggle"><i class="fa-solid fa-plus"></i></span>
+                        </button>
+                        <div class="accordion-content">
+                            <div class="content-wrapper">
+                                <p>Full Truck Load (FTL) provides you with exclusive use of an entire dedicated
+                                    container truck for direct, point-to-point transport of your cargo. Part Load (LTL)
+                                    consolidates your shipment with other corporate consignments, allowing you to share
+                                    space and pay only for the exact volume your cargo occupies. Choose FTL for
+                                    time-sensitive, high-volume consignments, and Part Load for highly economical
+                                    smaller dispatches.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 2 -->
+                    <div class="accordion-item">
+                        <button class="accordion-header" aria-expanded="false">
+                            <span>Do you provide real-time live tracking updates?</span>
+                            <span class="icon-toggle"><i class="fa-solid fa-plus"></i></span>
+                        </button>
+                        <div class="accordion-content">
+                            <div class="content-wrapper">
+                                <p>Absolutely. 100% of our fleet vehicles are equipped with dual-band cellular GPS
+                                    transmitters. Corporate clients receive dedicated web portal dashboards tracking
+                                    vehicle latitude/longitude coordinates. We also offer standard WhatsApp text
+                                    automation pinging dispatch and delivery points automatically.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 3 -->
+                    <div class="accordion-item">
+                        <button class="accordion-header" aria-expanded="false">
+                            <span>What areas and states do you serve?</span>
+                            <span class="icon-toggle"><i class="fa-solid fa-plus"></i></span>
+                        </button>
+                        <div class="accordion-content">
+                            <div class="content-wrapper">
+                                <p>Amma Road Carriers operates terminal branches spanning all major industrial states in
+                                    India, including Maharashtra, Karnataka, Tamil Nadu, Delhi-NCR, Gujarat, West
+                                    Bengal, and Telangana. We maintain extensive surface route coverage supporting small
+                                    remote warehouse drops and direct industrial corridor lanes.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 4 -->
+                    <div class="accordion-item">
+                        <button class="accordion-header" aria-expanded="false">
+                            <span>Are transport goods fully insured?</span>
+                            <span class="icon-toggle"><i class="fa-solid fa-plus"></i></span>
+                        </button>
+                        <div class="accordion-content">
+                            <div class="content-wrapper">
+                                <p>Yes, all freight bookings include option-tiers for comprehensive Road & Inland
+                                    Transit insurance. We partner with national top-grade underwriters to protect cargo
+                                    against collision incidents, rain damage, or loading accidents. Claims are
+                                    fast-tracked via digital docket systems in under 7 business days.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 10. Contact Section -->
+        <section id="contact" class="contact-section section-padding">
+            <div class="container">
+                <div class="section-header text-center reveal">
+                    <span class="section-tagline">GET IN TOUCH</span>
+                    <h2 class="section-title">Reach Out for Seamless Transport Support</h2>
+                    <div class="header-line"></div>
+                </div>
+
+                <div class="contact-layout-grid">
+                    <!-- Left: Details and Location Map -->
+                    <div class="contact-details-column reveal">
+                        <h3>Headquarters Contact Info</h3>
+                        <p class="contact-sub-intro">Visit our booking terminals or get instant telephone consultation
+                            with our dispatch engineers.</p>
+
+                        <div class="contact-info-cards">
+                            <div class="info-item-card">
+                                <div class="icon-bubble"><i class="fa-solid fa-location-dot"></i></div>
+                                <div>
+                                    <h4>Corporate Office Address</h4>
+                                    <p>H.No. 4-10-34/7, Plot No. 4, Block No. 7, Auto Nagar, Hyderabad, Telangana -
+                                        500070
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="info-item-card">
+                                <div class="icon-bubble"><i class="fa-solid fa-phone-volume"></i></div>
+                                <div>
+                                    <h4>Direct Freight Hotline</h4>
+                                    <p>+91 9391111555 / +91 9391998859</p>
+                                </div>
+                            </div>
+
+                            <div class="info-item-card">
+                                <div class="icon-bubble"><i class="fa-solid fa-envelope-open-text"></i></div>
+                                <div>
+                                    <h4>Corporate Mail ID</h4>
+                                    <p>info@ammaroadcarriers@gmail.com / bookings@ammaroadcarriers@gmail.com</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Embedded Responsive Google Map -->
+                        <div class="map-iframe-wrapper">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3808.6738965825226!2d78.5784956!3d17.3400242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcba1e277407a7b%3A0x8a4b867549e4df24!2sAmma%20Road%20Carriers!5e0!3m2!1sen!2sin!4v1716600000000!5m2!1sen!2sin"
+                                width="100%" height="280" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"
+                                title="Amma Road Carriers Location Map"></iframe>
+                        </div>
+                    </div>
+
+                    <!-- Right: Form Validation -->
+                    <div class="contact-form-column reveal reveal-delay-1">
+                        <div class="contact-form-card">
+                            <h3>Send Direct Cargo Inquiry</h3>
+                            <form id="contactInquiryForm" novalidate>
+                                <div class="form-grid-two">
+                                    <div class="input-element">
+                                        <label for="contactName">Full Name *</label>
+                                        <input type="text" id="contactName" placeholder="e.g. Rajesh Kumar" required>
+                                        <span class="validation-message" id="nameError">Full name is required.</span>
+                                    </div>
+                                    <div class="input-element">
+                                        <label for="contactPhone">Phone Number *</label>
+                                        <input type="tel" id="contactPhone" placeholder="e.g. 9876543210" required>
+                                        <span class="validation-message" id="phoneError">Valid 10-digit mobile number is
+                                            required.</span>
+                                    </div>
+                                </div>
+
+                                <div class="input-element">
+                                    <label for="contactEmail">Email Address *</label>
+                                    <input type="email" id="contactEmail" placeholder="e.g. rajesh@company.com"
+                                        required>
+                                    <span class="validation-message" id="emailError">Valid corporate email is
+                                        required.</span>
+                                </div>
+
+                                <div class="input-element">
+                                    <label for="contactService">Select Cargo Category</label>
+                                    <select id="contactService">
+                                        <option value="ftl">Full Truck Load (FTL)</option>
+                                        <option value="part-load">Part Load Transport</option>
+                                        <option value="warehouse">Storage & Warehousing</option>
+                                        <option value="express">Express Delivery</option>
+                                        <option value="heavy">Industrial Machinery / Heavy Load</option>
+                                    </select>
+                                </div>
+
+                                <div class="input-element">
+                                    <label for="contactMessage">Detailed Inquiry Message *</label>
+                                    <textarea id="contactMessage" rows="5"
+                                        placeholder="Specify load dimensions, weight, pickup city & delivery destination..."
+                                        required></textarea>
+                                    <span class="validation-message" id="messageError">Please supply cargo details to
+                                        generate an accurate quotation.</span>
+                                </div>
+
+                                <button type="submit" class="btn btn-primary btn-block" id="formSubmitBtn">
+                                    <i class="fa-solid fa-paper-plane"></i> Dispatch Cargo Inquiry
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 11. Footer -->
+    <footer class="main-footer bg-dark text-white">
+        <div class="container footer-grid">
+            <!-- Col 1: Branding -->
+            <div class="footer-brand">
+                <a href="#home" class="logo text-white">
+                    <span class="logo-icon"><i class="fa-solid fa-truck-fast text-accent"></i></span>
+                    <span class="logo-text">AMMA <span class="accent-text">ROAD CARRIERS</span></span>
+                </a>
+                <p class="brand-bio">Pioneers in high-grade surface transportation and freight warehouse grids across
+                    India since 2001. ISO 9001:2015 certified operations.</p>
+                <div class="footer-certificates">
+                    <span><i class="fa-solid fa-award"></i> Quality Transport Award 2024</span>
+                </div>
+            </div>
+
+            <!-- Col 2: Quick Navigation -->
+            <div class="footer-links">
+                <h4>Quick Navigation</h4>
+                <ul>
+                    <li><a href="#home"><i class="fa-solid fa-chevron-right"></i> Home Portal</a></li>
+                    <li><a href="#about"><i class="fa-solid fa-chevron-right"></i> Company History</a></li>
+                    <li><a href="#services"><i class="fa-solid fa-chevron-right"></i> Logistics Services</a></li>
+                    <li><a href="#fleet"><i class="fa-solid fa-chevron-right"></i> Our Active Fleet</a></li>
+                    <li><a href="#tracking"><i class="fa-solid fa-chevron-right"></i> Live Shipment Track</a></li>
+                </ul>
+            </div>
+
+            <!-- Col 3: Services Shortcut -->
+            <div class="footer-links">
+                <h4>Transport Verticals</h4>
+                <ul>
+                    <li><a href="#services"><i class="fa-solid fa-chevron-right"></i> Full Truck Load</a></li>
+                    <li><a href="#services"><i class="fa-solid fa-chevron-right"></i> Part Load Shipping</a></li>
+                    <li><a href="#services"><i class="fa-solid fa-chevron-right"></i> Cold-Chain Fleet</a></li>
+                    <li><a href="#services"><i class="fa-solid fa-chevron-right"></i> Over Dimensional Load</a></li>
+                    <li><a href="#services"><i class="fa-solid fa-chevron-right"></i> Commercial Warehouse</a></li>
+                </ul>
+            </div>
+
+            <!-- Col 4: Newsletter -->
+            <div class="footer-newsletter">
+                <h4>Subscribe to Logistics News</h4>
+                <p>Stay up to date on new logistics tax policies, transit road improvements, and freight trends.</p>
+                <form id="newsletterForm"
+                    onsubmit="event.preventDefault(); alert('Thank you for subscribing!'); document.getElementById('newsletterEmail').value='';">
+                    <div class="newsletter-group">
+                        <input type="email" id="newsletterEmail" placeholder="Enter your business email" required>
+                        <button type="submit" aria-label="Subscribe"><i class="fa-solid fa-paper-plane"></i></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container footer-bottom-flex">
+                <p>&copy; 2007 Amma Road Carriers. All Rights Reserved.</p>
+                <div class="bottom-policies">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms & Conditions</a>
+                    <a href="#">GST Portal Details</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Floating Button -->
+    <button class="back-to-top" id="backToTopBtn" aria-label="Scroll back to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- General Overlay Notifications Toast -->
+    <div class="toast-notification-system" id="toastSystem"></div>
+
+    <!-- Get Quote Modal -->
+    <div class="modal" id="quoteModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3><i class="fa-solid fa-file-invoice-dollar text-accent"></i> Request Cargo Price Quote</h3>
+                    <button class="close-modal" id="closeQuoteModal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <form id="modalQuoteForm">
+                        <div class="form-grid-two">
+                            <div class="input-element">
+                                <label for="modalName">Your Name *</label>
+                                <input type="text" id="modalName" required>
+                            </div>
+                            <div class="input-element">
+                                <label for="modalPhone">Phone Number *</label>
+                                <input type="tel" id="modalPhone" required>
+                            </div>
+                        </div>
+                        <div class="input-element">
+                            <label for="modalEmail">Business Email *</label>
+                            <input type="email" id="modalEmail" required>
+                        </div>
+                        <div class="form-grid-two">
+                            <div class="input-element">
+                                <label for="modalOrigin">Origin City / Pin Code *</label>
+                                <input type="text" id="modalOrigin" placeholder="e.g. Mumbai" required>
+                            </div>
+                            <div class="input-element">
+                                <label for="modalDest">Destination City / Pin Code *</label>
+                                <input type="text" id="modalDest" placeholder="e.g. Chennai" required>
+                            </div>
+                        </div>
+                        <div class="form-grid-two">
+                            <div class="input-element">
+                                <label for="modalWeight">Total Weight (Tons / KGs) *</label>
+                                <input type="text" id="modalWeight" placeholder="e.g. 15 Tons" required>
+                            </div>
+                            <div class="input-element">
+                                <label for="modalVehicle">Select Vehicles Category *</label>
+                                <select id="modalVehicle">
+                                    <option value="mini">Mini Truck (Tata Ace)</option>
+                                    <option value="container">Closed Container Truck</option>
+                                    <option value="trailer">Heavy Multi-Axle Trailer</option>
+                                    <option value="express-pickup">Express Cargo Pickup (Bolero / Dost)</option>
+                                    <option value="open-body">Open Body Platform Truck</option>
+                                    <option value="warehouse-lift">Warehouse Forklift Stacker</option>
+                                    <option value="any">Not Sure (Let ARC team advise)</option>
+                                </select>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Generate Quotation</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Service Details Modal -->
+    <div class="modal" id="serviceDetailsModal">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 id="serviceModalTitle">Service Name</h3>
+                    <button class="close-modal" id="closeServiceModal">&times;</button>
+                </div>
+                <div class="modal-body" id="serviceModalBody">
+                    <!-- Loaded dynamically via JavaScript -->
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-outline" id="closeServiceModalBtn">Close details</button>
+                    <a href="#contact" class="btn btn-primary" id="modalBookServiceBtn">Book This Service Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox-modal" id="lightboxModal">
+        <span class="close-lightbox" id="closeLightbox">&times;</span>
+        <button class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Previous image"><i
+                class="fa-solid fa-chevron-left"></i></button>
+        <div class="lightbox-content-wrapper">
+            <img src="" alt="" id="lightboxMainImg">
+            <div class="lightbox-caption" id="lightboxCaption">Image Caption</div>
+        </div>
+        <button class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="Next image"><i
+                class="fa-solid fa-chevron-right"></i></button>
+    </div>
+
+    <!-- Custom JavaScript Libraries -->
+    <script src="js/main.js"></script>
+    <script src="js/tracking.js"></script>
+    <script src="js/carousel.js"></script>
+    <script src="js/gallery.js"></script>
+</body>
+
+</html>
