@@ -2848,13 +2848,4 @@ ul {
     }
 }
 
-/* Brochure Button */
-.brochure-btn{
-    margin-right:15px;
-}
 
-.brochure-download{
-    display:inline-flex;
-    align-items:center;
-    gap:8px;
-}
