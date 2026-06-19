@@ -2847,3 +2847,48 @@ ul {
         gap: 3rem;
     }
 }
+
+/* Custom Brochure Button Styling */
+.header-actions {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.btn-brochure {
+    background-color: transparent;
+    color: var(--color-white);
+    border: 2.5px solid var(--color-accent);
+    border-radius: 5px;
+    padding: 0.5rem 1.25rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    font-family: var(--font-heading);
+    cursor: pointer;
+    transition: var(--transition-smooth);
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.btn-brochure:hover {
+    background-color: var(--color-accent);
+    color: var(--color-white);
+    transform: translateY(-1.5px);
+    box-shadow: 0 4px 10px rgba(255, 107, 0, 0.35);
+}
+
+.btn-brochure i {
+    font-size: 0.95rem;
+}
+
+/* Adjustments for sticky header */
+.main-header.sticky .btn-brochure {
+    border-color: var(--color-accent);
+    color: var(--color-white);
+}
+
+.main-header.sticky .btn-brochure:hover {
+    background-color: var(--color-accent-hover);
+    border-color: var(--color-accent-hover);
+}
