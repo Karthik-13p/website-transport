@@ -461,11 +461,19 @@ ul {
 .btn-quote {
     background-color: var(--color-accent);
     color: var(--color-white);
-    border: none;
+    border: 2px solid transparent;
     border-radius: 5px;
-    padding: 0.55rem 1.4rem;
+    padding: 0.5rem 1.4rem;
     font-size: 0.9rem;
+    font-weight: 600;
+    font-family: var(--font-heading);
     box-shadow: 0 4px 10px rgba(255, 107, 0, 0.3);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    height: 38px;
+    transition: var(--transition-smooth);
 }
 
 .btn-quote:hover {
@@ -2858,7 +2866,7 @@ ul {
 .btn-brochure {
     background-color: transparent;
     color: var(--color-white);
-    border: 2.5px solid var(--color-accent);
+    border: 2px solid var(--color-accent);
     border-radius: 5px;
     padding: 0.5rem 1.25rem;
     font-size: 0.9rem;
@@ -2868,7 +2876,10 @@ ul {
     transition: var(--transition-smooth);
     display: inline-flex;
     align-items: center;
+    justify-content: center;
     gap: 0.5rem;
+    box-sizing: border-box;
+    height: 38px;
 }
 
 .btn-brochure:hover {
